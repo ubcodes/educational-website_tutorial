@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Andada+Pro:ital,wght@0,400;0,600;0,700;1,600&family=Belleza&family=Poppins:wght@100;400;500;600;700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+section {
+    background-color: #fdf2fe;
+}
+
+
+section, footer {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: 2rem;
+    line-height: 50px;
+    font-family: 'Poppins', sans-serif;
+    color: #0d0010;
+    font-weight: 600;
+}
+
+
+p{
+    color: #596b65;
+    font-size: 1.2rem;
+    line-height: 35px;
+    font-family: 'Andada Pro', serif;
+    font-weight: 400;
+}
+
+i{
+    color: #520160;
+    font-size: 2rem;
+    padding: 15px;
+    
+}
+
+
+a{
+    text-decoration: none;
+}
+
+button.btn{
+    width: 40;
+    padding: 1rem;
+    border-radius: 15px;
+    border: none;
+    text-decoration: none;
+    position: relative;
+    overflow: hidden;
+box-shadow: 0 0 0 0 rgba(143, 63, 248, 0.5), 0 0 0 0 rgba(39, 200, 255, 0.5);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+button.btn::after {
+    content: "";
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    top: -50px;
+    left: -100px;
+    background-color: #ff3cac;
+    background-image: linear-gradient(225deg,
+            #27d86c 0%,
+            #26caf8 50%,
+            #c625d0 100%);
+    z-index: -1;
+    transition: transform 0.5s ease;
+}
+
+button.btn:hover {
+    transform: translate(0, -6px);
+    box-shadow: 10px -10px 25px 0 rgba(143, 64, 248, 0.5), -10px +10px 25px 0 rgba(39, 200, 255, 0.5);
+}
+
+button.btn:hover::after {
+    transform: rotate(150deg);
+}

@@ -1,0 +1,62 @@
+.updates_section {
+    background-image: url('../../assets/images/purple-bg.jpg');
+    background-size: cover;
+    background-size:  no-repeat;
+}
+
+.update_content{
+    padding-left: 20px;
+}
+
+.update_title{
+    font-size: 2.5rem;
+}
+
+
+.getUpdates {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 10px;
+    border-radius: 15px;
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.getUpdates input {
+   border: none;
+   border-radius: 15px;
+   background-color: #fff;
+   outline: none;
+   flex: 1;
+   font-size: 20px;
+   padding-left: 1rem;
+   outline: none;
+}
+
+
+.btn-update {
+    color: #fff;
+    text-decoration: none;
+    border-radius: 15px;
+    font-weight: 620;
+    background: #8a02a1;
+    border: none;
+    padding: 1rem;
+    font-size: 16px;
+    width: 40%;
+    cursor: pointer;
+
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 0 0 0 rgba(143, 64, 248, 0.5), 0 0 0 0 rgba(39, 200, 255, 0.5);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+@media only screen and (max-width : 991px) {
+    .btn-update {
+        font-size: 10px;
+        width: 30%;
+    }
+}

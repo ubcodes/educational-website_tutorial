@@ -1,0 +1,26 @@
+.offer_title img{
+    width: 25px;
+    height: 25px;
+}
+
+.offer_title {
+    font-size: 1rem;
+    color: #0d0010;
+    font-weight: 500;
+}
+
+.offer_content{
+    padding-left: 20px;
+}
+
+.btn-offer {
+    background: linear-gradient(109.2deg, rgb(249, 174, 240) 6.5%, rgb(139, 144, 250) 97.1%);
+    ;
+    color: #520160;
+    font-weight: 620;
+    font-size: 18px;
+    /* word-spacing:2px; */
+    letter-spacing: 2px;
+    position: relative;
+    margin-top: 25px;
+}

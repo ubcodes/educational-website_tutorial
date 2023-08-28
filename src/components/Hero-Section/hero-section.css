@@ -1,0 +1,112 @@
+.hero_content h1{
+    font-weight: bolder;
+    font-size: 4rem;
+    color: #000;
+}
+
+
+.hero_content {
+    padding-top: 80px;
+}
+
+
+.hero_content p {
+    color: #0d0010;
+}
+
+.e-purple{
+    color: #db22fb;
+}
+
+
+.search {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 10px;
+    border-radius: 15px;
+
+    background-color: #fff;
+
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.search input {
+    border: none;
+    border-radius: 15px;
+    background-color: #fff;
+    outline: none;
+    flex: 1;
+    font-size: 20px;
+    padding-left: 1rem;
+    outline: none;
+}
+
+
+.search img {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    background-color: #fff;
+}
+
+.btn-search {
+    color: #fff;
+    text-decoration: none;
+    border-radius: 15px;
+    font-weight: 620;
+    background: #8a02a1;
+    border: none;
+    padding: 1rem;
+    font-size: 16px;
+    width: 40%;
+    cursor: pointer;
+
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 0 0 0 rgba(143, 63, 248, 0.5), 0 0 0 0 rgba(39, 200, 255, 0.5);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.btn-search:hover {
+    transform: translate(0, -6px);
+    box-shadow: 10px -10px 25px 0 rgba(143, 64, 248, 0.5), -10px +10px 25px 0 rgba(39, 200, 255, 0.5)
+}
+
+
+@media only screen and (max-width: 991px) {
+    .hero_content{
+        padding: 20px;
+    }
+
+    .search{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #f8f2ed;
+        border-radius: 15px;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    }
+
+
+    .search input{
+        border: none;
+        border-radius: 15px;
+        background-color: #f8f2ed;
+        outline: none;
+        font-size: 16px;
+    }
+
+    .search img{
+        width: 20px;
+        height: 20px;
+        cursor: pointer;
+        background-color: #f8f2ed;
+    }
+
+    .btn-search{
+        font-size: 10px;
+        width: 30%;
+    }
+}
